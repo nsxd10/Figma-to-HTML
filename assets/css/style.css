@@ -46,6 +46,7 @@ a {
 }
 .btn:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 /* =================header================ */
 .header {
@@ -274,4 +275,68 @@ a {
   background: var(--primary-color);
   color: white;
   cursor: pointer;
+}
+.polular .course-list {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+}
+.polular .course-item {
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+.polular .course-item:hover {
+  box-shadow: 0px 18px 36px 0px #0000000d;
+  border: 1px solid transparent;
+}
+.polular .course-item .thumb {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.polular .course-item .info {
+  padding: 16px 22px 22px;
+}
+.polular .course-item .foot,
+.polular .course-item .rating,
+.polular .course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.polular .course-item .title a {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.polular .rating .value {
+  margin-left: 6px;
+  font-size: 1.6rem;
+  color: #fea31b;
+  line-height: 1.75;
+}
+.polular .course-item .desc {
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.polular .course-item .foot {
+  margin-top: 12px;
+}
+.polular .course-item .price {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.polular .course-item .btn-book {
+  border: none;
+}
+.polular .course-item .btn-book:hover {
+  background: var(--primary-color);
 }
