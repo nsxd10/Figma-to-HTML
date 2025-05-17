@@ -28,6 +28,22 @@ a {
   text-align: center;
   min-width: 118px;
 }
+.btn:hover {
+  opacity: 90%;
+}
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -2%;
+}
+.heading-lv3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #171100;
+}
 /* ===================header===================*/
 .header {
   background-color: #fffcf4;
@@ -80,7 +96,7 @@ a {
 }
 
 /* ===================main===================*/
-.main {
+.hero {
   padding: 56px 0 65px;
   background-color: #fffcf4;
 }
@@ -215,4 +231,60 @@ a {
 }
 .hero .stats strong + strong {
   margin-left: 28px;
+}
+/* =============popular===========*/
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+  /* background: blue; */
+}
+.top-popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .title {
+  width: 458px;
+}
+.popular .title .desc {
+  margin-top: 16px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #5f5b53;
+}
+.popular .action {
+  display: flex;
+  gap: 18px;
+}
+.popular .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--prime-color);
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffb900;
+  border-radius: 50%;
+}
+.popular .control-btn:hover {
+  background: var(--prime-color);
+  color: white;
+  cursor: pointer;
+}
+.popular .course {
+  margin-top: 56px;
+}
+/* .polular .course-item { */
+  width: 37rem;
+  height: 46.6rem;
+  top: 1279px;
+  left: 535px;
+  border-radius: 12px;
+  border-width: 1px;
+}
+.popular .course img:first-of-type {
+  width: 370px;
+  height: 278px;
+  object-fit: cover;
 }
