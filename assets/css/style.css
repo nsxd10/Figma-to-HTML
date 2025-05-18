@@ -574,3 +574,68 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
+/* ==============Footer============= */
+footer {
+  background: #2e2100;
+  padding: 96px 135px 0;
+}
+.footer .row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .desc {
+  color: #bfbcb2;
+  margin-top: 18px;
+  max-width: 267px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+.footer .title {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.footer .list {
+  margin-top: 28px;
+}
+.footer .list a {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .list li:last-child a {
+  margin-bottom: 0;
+}
+.footer .list strong {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .copyright {
+  color: #807d74;
+  padding: 28px 0;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+}
